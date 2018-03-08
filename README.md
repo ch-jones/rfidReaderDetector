@@ -8,5 +8,5 @@ The RFID Reader Detector electronics project and code created for DESN37900 at S
 
 The analog input, which reads the electromagnetic waves of RFID readers and converts to voltage, triggers some type of feedback. This feedback can be changed in the electronics and in the code to reflect the hardware used.
  
-![alt text](img/rfid_ReaderDectector_Buzzer.png "Diagram of RFID Detector Reader with Buzzer")
+![alt text](screenshots/rfid_ReaderDectector_Buzzer.png "Diagram of RFID Detector Reader with Buzzer")
 
