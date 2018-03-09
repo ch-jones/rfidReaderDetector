@@ -1,4 +1,4 @@
-# rfidReaderDetector
+# RFID Reader Detector | My.RFID
 Arduino Code for RFID Reader Detector Project
 This code uses the public domain ReadAnalogVoltage library. 
 http://www.arduino.cc/en/Tutorial/ReadAnalogVoltage
