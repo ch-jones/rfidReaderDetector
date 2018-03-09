@@ -48,7 +48,7 @@ void loop() {
   // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
   voltage = sensorValue * (5.0 / 1023.0);
   // print out the value you read:
-  Serial.println(buttonState);
+  Serial.println(analogRead(buttonPin));
 
   switch (buttonState) {
     case 0:
@@ -62,7 +62,7 @@ void loop() {
       break;
   }
 
-  if (analogRead(buttonPin) > 500) {
+  if (analogRead(buttonPin) > 999) {
     switchCheck();
   }
 }
